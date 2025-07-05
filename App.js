@@ -1,5 +1,5 @@
 import { StatusBar } from "expo-status-bar";
-import { StyleSheet, Text, View } from "react-native";
+import { Button, StyleSheet, Text, View } from "react-native";
 
 export default function App() {
   return (
@@ -12,6 +12,11 @@ export default function App() {
         I want to get a job on It sector on react native developer of september
         month inshaAllah.{" "}
       </Text>
+      <Button
+        color="green"
+        title="click me"
+        onPress={() => console.log("button tabed")}
+      ></Button>
       <StatusBar style="auto" />
     </View>
   );
@@ -20,7 +25,7 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#fff",
+    backgroundColor: "skyblue",
     alignItems: "center",
     justifyContent: "center",
   },
