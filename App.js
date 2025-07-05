@@ -10,12 +10,12 @@ export default function App() {
 
       <Text>
         I want to get a job on It sector on react native developer of september
-        month inshaAllah.{" "}
+        month inshaAllah
       </Text>
       <Button
         color="green"
         title="click me"
-        onPress={() => console.log("button tabed")}
+        onPress={() => alert("button tabbed")}
       ></Button>
       <StatusBar style="auto" />
     </View>
